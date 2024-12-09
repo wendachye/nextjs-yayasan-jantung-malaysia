@@ -1,0 +1,26 @@
+.header {
+    padding: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    position: relative;
+    aspect-ratio: 602 / 104;
+    display: block;
+    height: 80px;
+    width: auto;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.nav a {
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+}
