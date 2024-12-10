@@ -40,3 +40,9 @@ a {
     color-scheme: dark;
   }
 }
+
+.content {
+  margin: 0 auto;
+  max-width: 1600px;
+  min-height: 100vh;
+}
