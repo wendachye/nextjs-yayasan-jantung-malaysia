@@ -1,3 +1,4 @@
+import HomeBulletin from '@/components/HomeBulletin';
 import Image from 'next/image';
 import Link from 'next/link';
 import styles from './page.module.css';
@@ -20,6 +21,8 @@ const Home = () => {
           />
         </div>
       </Link>
+
+      <HomeBulletin />
     </div>
   );
 };
