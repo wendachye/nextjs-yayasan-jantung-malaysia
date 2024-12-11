@@ -26,3 +26,13 @@
     text-decoration: none;
     cursor: pointer;
 }
+
+@media screen and (max-width: 576px) {
+    /* .header {
+        padding: 24px 16px;
+    } */
+
+    .logo {
+        height: 60px;
+    }
+}
