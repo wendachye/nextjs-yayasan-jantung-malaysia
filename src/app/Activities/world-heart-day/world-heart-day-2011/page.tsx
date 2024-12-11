@@ -63,7 +63,7 @@ const WordHeart2010 = () => {
           <li>Anti Smoking Campaign</li>
           <li>Lucky Draws</li>
         </ol>
-        <br/>
+        <br />
         Our <u>Facebook Album has loads more photographs!</u>
         <br />
         <br />

@@ -5,38 +5,55 @@ const CoursePerforma = () => {
     <div>
       <h1 className={styles.title}> Course Proforma</h1>
       <p className={styles.description}>
-      <ol>
+        <ol>
           <li>
             <b>Background</b>
             <ul>
-              <li>This course is named as the Basic Life Support Cardiopulmonary resuscitation (CPR).</li>
-              <li>This certificate course is accredited and certified by the Yayasan Jantung Malaysia (The Heart Foundation of Malaysia).</li>
+              <li>
+                This course is named as the Basic Life Support Cardiopulmonary
+                resuscitation (CPR).
+              </li>
+              <li>
+                This certificate course is accredited and certified by the
+                Yayasan Jantung Malaysia (The Heart Foundation of Malaysia).
+              </li>
               <li>The target participants do not need any prerequisites.</li>
             </ul>
           </li>
           <li>
             <b>Aim of the Course</b>
             <ul>
-              <li>To assess and manage an emergency life-threatening situation until medical aid arrives.</li>
+              <li>
+                To assess and manage an emergency life-threatening situation
+                until medical aid arrives.
+              </li>
             </ul>
           </li>
           <li>
             <b>Training Strategies</b>
             <ul>
-              <li>Predominantly learner-centered and skills-based. These include knowledge, video presentations, skills, and assessments.</li>
+              <li>
+                Predominantly learner-centered and skills-based. These include
+                knowledge, video presentations, skills, and assessments.
+              </li>
             </ul>
           </li>
           <li>
             <b>Trainers</b>
             <ul>
-              <li>Accredited and registered with The Heart Foundation of Malaysia.</li>
+              <li>
+                Accredited and registered with The Heart Foundation of Malaysia.
+              </li>
             </ul>
           </li>
           <li>
             <b>Assessment</b>
             <ul>
               <li>
-                To be eligible for assessment, participants MUST attend a minimum of 85% of the sessions. Assessment will consist of a written paper (MCQ) and all skill stations as stated in the course syllabus.
+                To be eligible for assessment, participants MUST attend a
+                minimum of 85% of the sessions. Assessment will consist of a
+                written paper (MCQ) and all skill stations as stated in the
+                course syllabus.
               </li>
             </ul>
           </li>
@@ -50,7 +67,10 @@ const CoursePerforma = () => {
             <b>Award</b>
             <ul>
               <li>
-                Participants who qualify in the assessments will be awarded with a CPR CERTIFICATE. This certificate is ONLY valid for TWO YEARS from the date of assessment. To renew, participants must undergo reassessment.
+                Participants who qualify in the assessments will be awarded with
+                a CPR CERTIFICATE. This certificate is ONLY valid for TWO YEARS
+                from the date of assessment. To renew, participants must undergo
+                reassessment.
               </li>
             </ul>
           </li>

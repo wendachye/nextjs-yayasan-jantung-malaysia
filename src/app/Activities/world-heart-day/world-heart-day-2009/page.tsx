@@ -94,8 +94,14 @@ const WordHeart2009 = () => {
         <br />
         <ol>
           <li>Local Newspaper</li>
-          <li>Health &amp; Beauty Magazine - Special issue focusing on World Heart Day and the theme on Wellness in the Workplace</li>
-          <li>Health Magazine (Special issue focusing on World Heart Day and theme) </li>
+          <li>
+            Health &amp; Beauty Magazine - Special issue focusing on World Heart
+            Day and the theme on Wellness in the Workplace
+          </li>
+          <li>
+            Health Magazine (Special issue focusing on World Heart Day and
+            theme){' '}
+          </li>
         </ol>
         <br />
         <br />

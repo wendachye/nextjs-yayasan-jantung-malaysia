@@ -235,7 +235,9 @@ const InheritedCholesterol = () => {
       <h2 className={styles.subtitle}>Your Cholesterol Reading</h2>
       <br />
       <p className={styles.description}>
-      Cholesterol readings generally include total cholesterol, LDL cholesterol, HDL cholesterol and triglyceride levels. It is important to take note of all 3 readings and not just total cholesterol.
+        Cholesterol readings generally include total cholesterol, LDL
+        cholesterol, HDL cholesterol and triglyceride levels. It is important to
+        take note of all 3 readings and not just total cholesterol.
         <br />
         <br />
         Total Cholesterol [mmol/L &#40;mg/dl&#41;]
@@ -247,7 +249,6 @@ const InheritedCholesterol = () => {
         High: &gt;=6.2 (&gt;=240)
         <br />
         <br />
-
         LDL Cholesterol [mmol/L &#40;mg/dl&#41;]
         <br />
         Desirable: &lt;3.3 (&lt;130)
@@ -257,7 +258,6 @@ const InheritedCholesterol = () => {
         High: &gt;=4.1 (&gt;=160)
         <br />
         <br />
-
         HDL Cholesterol [mmol/L &#40;mg/dl&#41;]
         <br />
         Acceptable: &gt;=0.9 (&gt;=35)
@@ -265,10 +265,9 @@ const InheritedCholesterol = () => {
         Risky: &lt;0.9 (&lt;35)
         <br />
         <br />
-
         Triglyceride [mmol/L &#40;mg/dl&#41;]
         <br />
-        Desirable: &lt;2.3 (&lt;200) 
+        Desirable: &lt;2.3 (&lt;200)
         <br />
         <br />
       </p>

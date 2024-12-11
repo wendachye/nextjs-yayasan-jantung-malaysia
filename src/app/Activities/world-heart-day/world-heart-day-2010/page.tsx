@@ -63,10 +63,12 @@ const WordHeart2011 = () => {
           <li>Anti Smoking Campaign</li>
           <li>Lucky Draws</li>
         </ol>
-        <br/>
-        <br/>
-        The event was officiated by Former Prime Minister of Malaysia, Tun Abdullah Ahmad Badawi. Each participant was given a free T-Shirt featuring the World Heart Federation logo and Heart-shaped balloon.
-        <br/>
+        <br />
+        <br />
+        The event was officiated by Former Prime Minister of Malaysia, Tun
+        Abdullah Ahmad Badawi. Each participant was given a free T-Shirt
+        featuring the World Heart Federation logo and Heart-shaped balloon.
+        <br />
         <br />
         <br />
       </p>
@@ -74,12 +76,15 @@ const WordHeart2011 = () => {
       {/* <h2 className={styles.subtitle}>Yayasan Jantung Malaysia (YJM)</h2> */}
       <p className={styles.description}>
         <br />
-        <br/>
+        <br />
         <ol>
           <li>Local Newspaper</li>
-          <li>Health Magazine (Special issue focusing on World Heart Day and theme)</li>
+          <li>
+            Health Magazine (Special issue focusing on World Heart Day and
+            theme)
+          </li>
         </ol>
-        <br/>
+        <br />
         Our <u>facebook link here</u> has loads of pictures.
         <br />
       </p>

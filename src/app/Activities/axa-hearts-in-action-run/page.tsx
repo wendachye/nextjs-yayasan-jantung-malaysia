@@ -6,14 +6,14 @@ const AXAHeartsInAction = () => {
       <h1 className={styles.title}>AXA Hearts in Action Run 2020</h1>
       {/* <h2 className={styles.subtitle}>Yayasan Jantung Malaysia (YJM)</h2> */}
       <p className={styles.description}>
-        <b>AXA Hearts in Action Run 2020</b> is back for the 6th consecutive year -
-        this year in virtual format to advocate for 5 social causes (Cancer,
-        Children, Heart, Environment and Kidney)!
+        <b>AXA Hearts in Action Run 2020</b> is back for the 6th consecutive
+        year - this year in virtual format to advocate for 5 social causes
+        (Cancer, Children, Heart, Environment and Kidney)!
         <br />
         <br />
-        Join <b>#AXAHeartsinActionRun2020</b> - Virtual Run Series and run for the
-        social cause close to your heart. Choose PINK and support us in raising
-        awareness on heart and circulatory diseases in Malaysia.
+        Join <b>#AXAHeartsinActionRun2020</b> - Virtual Run Series and run for
+        the social cause close to your heart. Choose PINK and support us in
+        raising awareness on heart and circulatory diseases in Malaysia.
         <br />
         <br />
         <b>Registration period:</b> 21st September - 22nd October 2020 <br />
@@ -23,7 +23,8 @@ const AXAHeartsInAction = () => {
         above)
         <br />
         <br />
-        Registration is NOW OPEN. Visit <u>bit.ly/axarun2020</u> to find out more.
+        Registration is NOW OPEN. Visit <u>bit.ly/axarun2020</u> to find out
+        more.
         <br />
         <b>#AXAHeartsinActionRun2020 #AXAMalaysia #myaxaaffin #KnowYouCan</b>
         <br />
