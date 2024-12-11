@@ -19,7 +19,8 @@
 .bulletin_cover {
     position: relative;
     aspect-ratio: 780 / 1024;
-    width: 280px;
+    width: 100%;
+    max-width: 280px;
     height: auto;
 }
 
@@ -34,4 +35,19 @@
     font-weight: 600;
     color: #990000;
     cursor: pointer;
+}
+
+@media screen and (max-width: 650px) {
+    .bulletin_content {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .bulletin_cover {
+        max-width: 100%;
+    }
+
+    .bulletin_description {
+        width: 100%;
+    }
 }

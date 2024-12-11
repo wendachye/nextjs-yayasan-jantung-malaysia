@@ -28,11 +28,11 @@
 }
 
 @media screen and (max-width: 576px) {
-    /* .header {
-        padding: 24px 16px;
-    } */
+    .header {
+        padding: 16px 24px;
+    }
 
     .logo {
-        height: 60px;
+        height: 50px;
     }
 }

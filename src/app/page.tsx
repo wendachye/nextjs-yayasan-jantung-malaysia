@@ -1,4 +1,5 @@
 import HomeBulletin from '@/components/HomeBulletin';
+import HomeVideoArticles from '@/components/HomeVideoArticles';
 import Image from 'next/image';
 import Link from 'next/link';
 import styles from './page.module.css';
@@ -23,6 +24,8 @@ const Home = () => {
       </Link>
 
       <HomeBulletin />
+
+      <HomeVideoArticles />
     </div>
   );
 };
