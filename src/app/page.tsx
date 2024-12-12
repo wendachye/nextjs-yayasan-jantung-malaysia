@@ -1,27 +1,14 @@
+import HomeBanner from '@/components/HomeBanner';
+import HomeBannerAds from '@/components/HomeBannerAds';
 import HomeBulletin from '@/components/HomeBulletin';
 import HomeVideoArticles from '@/components/HomeVideoArticles';
-import Image from 'next/image';
-import Link from 'next/link';
-import styles from './page.module.css';
-
-const URL_ADS = 'https://biogrow.com.my';
 
 const Home = () => {
   return (
     <div>
-      <div className={styles.banner}>
-        <Image fill alt="home-banner" src="/images/home/home_banner.jpg" />
-      </div>
+      <HomeBanner />
 
-      <Link href={URL_ADS} target="_blank">
-        <div className={styles.banner_ads}>
-          <Image
-            fill
-            alt="home-banner"
-            src="/images/home/home_banner_ads.jpg"
-          />
-        </div>
-      </Link>
+      <HomeBannerAds />
 
       <HomeBulletin />
 
