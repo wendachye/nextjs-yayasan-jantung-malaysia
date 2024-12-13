@@ -1,6 +1,53 @@
+'use client';
+
 import Image from 'next/image';
 import Link from 'next/link';
 import styles from './styles.module.css';
+
+const menu = [
+  {
+    title: 'About YJM',
+    link: '',
+    items: [
+      {
+        title: 'About YJM',
+        link: '',
+      },
+      {
+        title: 'Patron & Board of Directors',
+        link: '',
+      },
+      {
+        title: 'Supporting Staff',
+        link: '',
+      },
+      {
+        title: 'Our Aspirations',
+        link: '',
+      },
+    ],
+  },
+  {
+    title: 'Facilities',
+    link: '',
+  },
+  {
+    title: 'Health Articles',
+    link: '',
+  },
+  {
+    title: 'Activities',
+    link: '',
+  },
+  {
+    title: 'Bulletin',
+    link: '',
+  },
+  {
+    title: 'Contact Us',
+    link: '',
+  },
+];
 
 const Header = () => {
   return (
@@ -12,15 +59,24 @@ const Header = () => {
       </Link>
 
       <nav className={styles.nav}>
-        <a>About YJM</a>
-        <a>Facilities</a>
-        <a>Health Articles</a>
-        <a>Activities</a>
-        <a>Bulletin</a>
-        <a>Contact Us</a>
+        {menu.map((item) => (
+          <div key={item.title} className={styles.dropdown}>
+            <Link key={item.title} href={item.link}>
+              {item.title}
+            </Link>
+
+            <div className={styles.dropdown_content}>
+              {item.items?.map((subItem) => (
+                <Link key={subItem.title} href={subItem.link}>
+                  {subItem.title}
+                </Link>
+              ))}
+            </div>
+          </div>
+        ))}
       </nav>
 
-      <div></div>
+      {/* <HamburgerIcon /> */}
     </header>
   );
 };
