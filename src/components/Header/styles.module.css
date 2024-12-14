@@ -10,7 +10,7 @@
     position: relative;
     aspect-ratio: 602 / 104;
     display: block;
-    height: 80px;
+    height: 65px;
     width: auto;
 }
 
@@ -34,6 +34,7 @@
     width: auto;
     display: block;
     cursor: pointer;
+    display: none;
 }
 
 @media screen and (max-width: 576px) {
@@ -43,6 +44,16 @@
 
     .logo {
         height: 50px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .nav {
+        display: none;
+    }
+
+    .hamburger_icon {
+        display: block;
     }
 }
 

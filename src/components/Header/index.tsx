@@ -2,6 +2,7 @@
 
 import Image from 'next/image';
 import Link from 'next/link';
+import HamburgerIcon from './HamburgerIcon';
 import styles from './styles.module.css';
 
 const menu = [
@@ -216,7 +217,7 @@ const Header = () => {
         ))}
       </nav>
 
-      {/* <HamburgerIcon /> */}
+      <HamburgerIcon />
     </header>
   );
 };
