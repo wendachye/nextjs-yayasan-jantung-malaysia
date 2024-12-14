@@ -1,3 +1,4 @@
+import HomeArticle from '@/components/HomeArticle';
 import HomeBanner from '@/components/HomeBanner';
 import HomeBannerAds from '@/components/HomeBannerAds';
 import HomeBulletin from '@/components/HomeBulletin';
@@ -11,6 +12,8 @@ const Home = () => {
       <HomeBannerAds />
 
       <HomeBulletin />
+
+      <HomeArticle />
 
       <HomeVideoArticles />
     </div>

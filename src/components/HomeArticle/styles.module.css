@@ -1,0 +1,36 @@
+.section {   
+    padding: 32px 24px;
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.description {
+    font-size: 16px;
+    line-height: 1.5;
+    max-width: 600px;
+}
+
+.description b {
+    font-size: 18px;
+    font-weight: 600;
+    color: #990000;
+}
+
+.image_cover {
+    position: relative;
+    aspect-ratio: 1 / 1;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
+@media screen and (max-width: 880px) {
+    .section {
+        flex-direction: column;
+    }
+
+    .description {
+        max-width: 100%;
+    }
+}
